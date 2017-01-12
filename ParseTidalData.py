@@ -39,8 +39,8 @@ def ParseMalaysianTideRecord(FileName):
     location = location[0]
     
     Line = lines[2]
-    GagueNumber = Line.split(',')
-    GagueNumber = GagueNumber[4]
+    GaugeNumber = Line.split(',')
+    GaugeNumber = GaugeNumber[4]
     
     Line = lines[3]
     Year = Line.split(',')
@@ -54,7 +54,7 @@ def ParseMalaysianTideRecord(FileName):
     # print the results
     print("Here is the gague information: ")
     print("location: "+location)
-    print("GagueNumber: "+GagueNumber)
+    print("GagueNumber: "+GaugeNumber)
     print("Year: "+Year)
     
     # now get the number of lines left 
